@@ -41,7 +41,13 @@
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             //app.initialize();
-            window.location = "http://www.elisthunter.com/"; 
+            //window.location = "http://www.elisthunter.com/"; 
+
+                 document.addEventListener("deviceready", onDeviceReady, false); 
+
+    function onDeviceReady() {
+        // Now safe to use the Codova API
+     window.location = "http://www.elisthunter.com/";  }
         </script>
     </body>
 </html>
