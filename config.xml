@@ -1,7 +1,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="come.saga.taj" version="1.0.0">
   <name>Take A Job</name>
   <description>Hello World sample application that responds to the deviceready event.</description>
-  <author href="http://takeajob.com/" email="rasvi@sagaciousinfosystems.com">PhoneGap Team</author>
+  <author href="http://www.elisthunter.com/" email="rasvi@sagaciousinfosystems.com">PhoneGap Team</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
@@ -62,7 +62,7 @@
   <gap:splash src="www/res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768"/>
   <gap:splash src="www/res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone"/>
   <!-- <access origin="*"/> -->
-  <access origin="http://takeajob.com/" subdomains="true" /> 
+  <access origin="http://www.elisthunter.com/" subdomains="true" browserOnly="false" /> 
   <plugin name="cordova-plugin-whitelist" version="1"/>
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
